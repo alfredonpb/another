@@ -1,0 +1,127 @@
+body {font-family: 'Raleway';
+}
+
+.contenedor {
+width: 600px;
+margin: 0px auto;
+margin-top: -80px;
+}
+
+.formulario .contenedor-inputs{
+padding:10px;
+background: #fff;
+border-radius:6px 6px 0 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"] {
+display: block;
+width: 100%;
+margin-bottom: 12px;
+padding: 15px 10px;
+border:none;
+border-bottom: 2px solid #ccc;	
+font-size: 14px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus {
+border-bottom: 2px solid #246eb9;
+}
+
+.formulario input[type="radio"]{
+display: none;
+}
+/* 
+.formulario .sexo {
+display: flex;
+flex-wrap:no-wrap;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+
+.formulario .sexo .label-radio {
+width: 49.5%;
+}
+
+.formulario .sexo .hombre {
+border-radius: 3px 0 0 3px;
+}
+
+.formulario .sexo .mujer {
+border-radius: 0 3px 3px 0;
+} */
+
+.formulario .label-radio{
+background: rgba(249,160,63, .4);
+color: #fff;
+padding:10px 10px;
+text-align: center;
+}
+
+.formulario input[type="radio"]:checked + .label-radio{
+background: #f9a03f;
+color: #fff;
+}
+
+.formulario .terminos {
+/*margin-bottom: 20px;*/
+text-align: center;
+color: #424242;
+}
+
+.formulario .terminos label {
+margin-left: 0px;
+}
+
+.formulario .error {
+display: none;
+margin-top: 20px;
+border-radius: 3px;
+background: #cc0404;
+color: #fff;
+padding: 15px 10px;
+padding-left: 40px;
+}
+
+textarea {
+min-height: 50px;
+max-height: 200px;
+}
+
+.formulario .btn {
+width: 100%;
+text-align: center;
+background: #246eb9;
+color: #fff;
+border: none;
+display: block;
+padding: 10px 10px;
+cursor: pointer;
+border-radius: 0 0 6px 6px;
+font-family: 'Raleway';
+font-size: 14px;
+}
+
+.formulario .btn:hover {
+background: #052cd8;
+}
+
+.alert-error{
+background:#ee3e12;
+color:#fff;
+margin:10px auto;
+width:100%;
+/*padding:5px auto;*/
+padding: 10px;
+text-align:center;	
+}
+.alert-success{
+background:#4caf50;
+color:#fff;
+margin:10px auto;
+width:100%;
+/*padding:5px auto;*/
+padding: 10px;
+text-align:center;	
+}

@@ -1,0 +1,754 @@
+.formulario{
+margin-top: 150px;
+font-size: 16px;  
+}
+body{
+font-family: 'Raleway';
+background: #f2f2f2;
+font-size: 13px;
+margin-top: 20px;
+}
+.navbar{
+height: 55px;
+box-shadow: 0.5px 0.5px 20px  #000;
+background-color: rgb(27, 152, 201);
+/*background: linear-gradient(to top, rgba(73, 89, 238, 0.87) 10%, rgba(16, 165, 153, 0.87) 100%);
+background: linear-gradient(to top, rgba(4, 112, 9, 0.87) 10%, rgba(79, 238, 47, 0.87) 100%);*/
+
+/*background: url('0.png');
+background-repeat: no-repeat;*/
+max-width: 1400px;
+margin: 0px auto;
+}
+.enlaces-menu{
+  /*font-family:;*/
+  font-family:'Raleway';
+  font-weight: 200;
+  font-size: 12px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  
+}
+.fondo{
+  background: url('neon3.png');
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+h1{
+font-size: 30px;
+font-family:'Merienda One', cursive;
+margin-top:80px;
+/**/
+color: #fff;
+color:rgb(18, 91, 160);
+
+}
+.bandera{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bola1{ 
+background: linear-gradient(to top,  rgba(204, 195, 64, 0.9) 20%, rgba(248, 252, 14, 0.87) 100%);
+box-shadow:  grey 15px 15px 55px ;
+width: 50px;
+height: 20px;
+border-radius: 50px 0px  50px;
+margin-left: 25px;
+}
+.bola2{ 
+background: linear-gradient(to top,  rgba(38, 201, 241, 0.9) 20%, rgba(26, 62, 224, 0.87) 100%);
+box-shadow:  grey 15px 15px 55px ;
+width: 60px;
+height: 30px;
+border-radius: 40px 0px  40px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+z-index: 10px;
+}
+.estrellas{
+color: #fff;
+font-size: 20px;
+padding-top: 11px;
+}
+.bola3{ 
+background: linear-gradient(to top,  rgba(223, 69, 69, 0.9) 20%, rgba(233, 8, 8, 0.87) 100%);
+box-shadow:  grey 15px 15px 55px ;
+width: 50px;
+height: 20px;
+border-radius: 50px 0px;
+}
+ 
+.intro{
+/*background: linear-gradient(to top, rgba(91, 212, 176, 0.9) 10%, rgba(16, 165, 153, 0.87) 100%);*/
+background:#f2f2f2;
+margin-top:50px;
+min-height: 450px;
+/*max-width: 1400px;*/
+min-width: 100%; 
+/*display: flex;*/
+
+}
+.intro img{
+  text-align: center;
+  border-radius: 50%;
+   /*border: 0.5px solid rgb(123, 183, 240);*/
+  margin-top:-30px;
+  box-shadow:  grey 25px 25px 55px ;
+ }
+.psicologia-migracion{
+margin-top:5px;
+ }
+.blockquote-sicologia{
+border-left: 3px solid rgb(93, 96, 247); 
+font-size: 17px; 
+}
+.salto1{ margin: 0.5px auto;}
+.recomendaciones {
+min-width: 100%;
+box-shadow: 0.5px 5px 15px #000;
+background: rgba(19, 97, 150, 0.9);
+}
+.patricia{
+background: linear-gradient(to top, rgba(51, 149, 240, 0.87) 10%, rgba(87, 169, 207, 0.9) 100%);
+margin-top:35px;
+/*height: 450px;*/
+/*max-width: 1400px;*/
+max-width: 100%; 
+min-height: 450px;
+display:flex;  
+justify-content: center;
+align-items: center; 
+} 
+.dos-bloques{
+  min-width: 90%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}
+.patricia-contenido{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.patricia-contenido-derecha{
+  margin-top:5px;
+}
+#apartado{
+font-size: 21px;
+font-weight:bold;  
+}
+.patricia img {
+ text-align: center;
+ border-radius: 50%;
+ border: 1px solid #fff;
+}
+.patricia ul li{
+font-size: 19px;
+text-decoration: none;
+list-style: none;
+}
+.fa-check{
+font-size: 14px;
+margin-right: 10px;
+}
+.boton-patri{
+width:350px;
+}
+.botones-patricia{
+color:#fff;
+font-size: 20px;
+border:solid 0.5px rgba(255,255,255,0.5);
+border-radius: 25px;
+}
+.botones-patricia:hover{
+background: #fff;
+color:  rgb(24, 169, 236);
+font-size: 20px;
+border:solid 0.3px rgba(255, 255, 255, 0.8);
+}
+.redes-psicologa{
+border-radius: 0px 0px 25px 0px;  
+}
+
+/*Botón del formulario*/
+.contacto{
+border-radius: 5px;
+font-size: 14px;
+}
+.contacto:hover{
+border-radius: 5px;
+font-size: 14px;
+background: rgb(5, 184, 207);
+color:#fff;
+}
+.bordesuperior{
+background:rgba(244, 247, 246, 0.9);;
+height: 0.8px;
+width:350px;
+}
+.bordesinferior{
+background:rgba(192, 236, 233, 0.9);;
+height: 0.5px;
+width:200px;
+}
+
+
+/*INFORMACIÓN PARA MIGRAR*/
+.informacion{
+  background: #f4f4f4;
+  min-width: 100%;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+}
+.iconone{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  margin:0px auto;
+  background: linear-gradient(to top,  rgba(38, 201, 241, 0.9) 20%, rgba(26, 62, 224, 0.87) 100%);
+  box-shadow:  grey 15px 15px 55px ;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+.iconone{
+  font-size: 40px;
+  color:rgb(236, 236, 247);  
+}
+.iconone:hover {
+  background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+}
+.iconthree:hover {
+  background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+}
+.icontwo{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  margin:0px auto;
+  background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+  /*box-shadow:  grey 15px 15px 55px;*/
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+.icontwo{
+  font-size: 40px;
+  color:#fff;  
+}
+.icontwo:hover {
+  background: linear-gradient(to top,  rgba(38, 201, 241, 0.9) 20%, rgba(26, 62, 224, 0.87) 100%);
+}
+.iconthree{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  margin:0px auto;
+  background: linear-gradient(to top,  rgba(38, 201, 241, 0.9) 20%, rgba(26, 62, 224, 0.87) 100%);;
+  box-shadow:  grey 15px 15px 55px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+.iconthree{
+  font-size: 40px;
+  color:#fff; 
+}
+.bordesfinales{
+  width: 10px;
+  border-bottom: solid 1.5px #9e9c9c;
+}
+/*.renovacion {
+outline: none;
+} */
+.alerta-renovacion{
+margin-bottom: 0px;
+font-size:16px;
+}
+
+/*PROYECTOS*/
+.sinergia{
+margin-top: 5px;
+min-width: 100%;
+height: 400px;
+background:#fff;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+background-color: #fff;
+
+}
+.sinergia a{
+text-decoration:none;
+}
+
+.dibujo{
+font-size: 40px;
+color: #f2f2f2;
+opacity: 0.9;
+border: transparent 2px #fff;
+}
+.dibujo:hover{
+font-size: 45px;
+color:#fff;
+opacity: 1;
+border: solid 1px #fff;
+}
+.icono1 {
+background: linear-gradient(to top, rgba(111, 243, 70, 0.87) 10%, rgba(43, 230, 5, 0.9) 100%);
+width: 85px;
+height: 85px;
+border-radius: 50%;
+box-shadow:  grey 25px 25px 55px ;
+display: flex;
+justify-content:center;
+align-items:center;
+margin: 0px auto;
+}
+.icono1:hover {
+background: linear-gradient(to top,  rgba(43, 230, 5, 0.9) 10%, rgba(111, 243, 70, 0.87) 100%);
+width: 85px;
+height: 85px;
+border-radius: 50%;
+box-shadow:  grey 25px 25px 55px ;
+display: flex;
+justify-content:center;
+align-items:center;
+margin: 0px auto;
+}
+.icono2 {
+  background: linear-gradient(to top, rgba(24, 159, 238, 0.87) 10%, rgba(7, 238, 226, 0.9) 100%);
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow:  grey 25px 25px 55px ;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px auto;
+}
+.icono2:hover {
+  background: linear-gradient(to top,  rgba(7, 238, 226, 0.9) 10%, rgba(24, 159, 238, 0.87) 100%);
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow:  grey 25px 25px 55px ;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px auto;
+}
+.icono3 {
+  background: linear-gradient(to top, rgba(24, 159, 238, 0.87) 10%, rgba(7, 238, 226, 0.9) 100%);
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow:  grey 25px 25px 55px ;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px auto;
+}
+.icono3:hover{
+  background: linear-gradient(to top,  rgba(7, 238, 226, 0.9) 10%, rgba(24, 159, 238, 0.87) 100%);
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow:  grey 25px 25px 55px ;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px auto;
+}
+.icono4 {
+  background: linear-gradient(to top, rgba(111, 243, 70, 0.87) 10%, rgba(43, 230, 5, 0.9) 100%);;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow:  grey 25px 25px 55px ;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px auto;
+}
+.icono4:hover {
+background: linear-gradient(to top, rgba(43, 230, 5, 0.9) 10%, rgba(111, 243, 70, 0.87)   100%);
+width: 85px;
+height: 85px;
+border-radius: 50%;
+box-shadow:  grey 25px 25px 55px ;
+display: flex;
+justify-content:center;
+align-items:center;
+margin: 0px auto;
+}
+
+/*FOOTER*/
+.nombre{
+display: flex;
+justify-content: space-between;
+}
+.guegue{
+  width: 100%;
+  height: 30px;
+  /*background: #536dfe;*/
+  /*background: #E4F931;*/
+  border-top-left-radius: 35px;
+  color:#7A1CFA;
+}
+  .guegue2 {
+  width: 100%;
+  height: 10px;
+  background: #fff;
+}
+  .guegue2 .ggg .gg img{
+  margin-top: -45px;
+  border-radius: 50%;
+  /*border: 2px solid rgba(255,255,255,0.9);*/
+  border: 2px solid #fff;
+  vertical-align: top;
+
+}
+.alfredo{
+font-family: 'Raleway', cursive;	
+text-align: left;	
+margin-left:200px;
+}  
+.redes{
+border-bottom-right-radius: 35px;
+height: 30px;
+}
+.redes a {
+text-decoration: none;	
+font-size: 18px;
+}
+
+/*RESPONSIVE DESING*/
+ @media screen and (max-width:350px){
+.navbar{
+height:60px;
+text-align: center;
+}      
+.enlaces-menu{
+margin-top: -40px;
+margin-left: 10px;
+}
+.enlaces-menu li a{          
+font-size: 8px;
+margin-left: 10px; 
+margin: auto auto;         
+}   
+h1{
+margin-top:80px;
+margin-left: -10px;
+color:rgb(3, 21, 56);
+}
+.h1-responsive{
+font-size: 13px;
+font-weight: 400;
+}
+.bandera-responsive{
+margin: 5px auto;
+  }
+.bola1{ 
+background: linear-gradient(to top,  rgba(204, 195, 64, 0.9) 20%, rgba(248, 252, 14, 0.87) 100%);
+width: 50px;
+height: 15px;
+border-radius: 50px 0px  50px;
+margin-left: -5px;
+}
+.bola2{ 
+background: linear-gradient(to top,  rgba(38, 201, 241, 0.9) 20%, rgba(26, 62, 224, 0.87) 100%);
+width: 100px;
+height: 15px;
+border-radius: 40px 0px  40px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+z-index: 10px;
+}
+.estrellas{
+color: #fff;
+font-size: 25px;
+padding-top: 8px;
+}
+.bola3{ 
+background: linear-gradient(to top,  rgba(223, 69, 69, 0.9) 20%, rgba(233, 8, 8, 0.87) 100%);
+width: 50px;
+height: 15px;
+border-radius: 50px 0px;
+}
+          
+/*PSICOLOGIA Y MIGRACIÓN*/
+.intro{
+margin-top: 5px;
+}
+.psicologia-migracion{
+font-size:20px;
+}
+.intro img {
+text-align: center;
+border-radius: 50%;
+/*border: 0.5px solid rgb(123, 183, 240);*/
+margin-top:5px;
+width: 150px;
+}
+.eres-lo-que-piensas{
+font-size: medium;
+}
+.blockquote-sicologia{
+font-size: 12px; 
+}
+.dos-bloques{
+ margin-top:25px;
+}
+.licenciada{
+font-size: 15px;
+}
+.patricia img {
+width: 150px;
+}
+.botones-patricia{
+width: 150px;
+text-align: center;
+margin:0px auto;
+font-size:12px;
+}
+.btn:hover{
+background: #fff;
+color:   rgb(24, 169, 236);
+font-size: 12px;
+border:solid 0.5px rgba(255, 255, 255, 0.8);
+}
+.patricia{
+height: 650px;    
+display: flex;
+flex-direction: column-reverse;
+margin-top:10px; 
+}
+#apartado{
+font-size: 14px;
+font-weight:bold;
+}
+          
+/*INFO DE MIGRACIONES*/
+.información-para-emigrar{
+font-size: 14px;
+font-weight:bold; 
+}
+.titulos-de-migracion{
+font-size: 14px;
+}
+.parrafos-migracion{
+font-size: 12px;  
+}
+.dni{
+margin-bottom:15px; 
+}
+.iconone{
+width: 60px;
+height: 60px; 
+font-size: 30px;
+color:rgb(236, 236, 247);   
+}
+.iconone:hover {
+ background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+}
+.icontwo{
+width: 60px;
+height: 60px;
+font-size: 30px;
+color:rgb(236, 236, 247);
+}
+.iconthree{
+width: 60px;
+height: 60px;
+font-size: 30px;
+color:#fff;
+}
+.iconthree:hover {
+background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+}
+.bordesfinales{
+width: 120px;
+border-bottom: solid 1px #9e9c9c;
+}
+          
+/*ALERTA DE RENOVACION DNI*/
+/* .renovacion{
+font-size:10px;
+font-weight: 400;
+} */
+.cambio{
+  font-size:12px;
+}
+.plazo{
+  font-size:12px;
+}
+.alerta-renovacion{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+          
+/*PROYECTOS*/
+.sinergia{
+margin-top: 5px;
+height: 650px;
+}
+.titulo-proyecto{
+font-size:15px;
+}
+.titulos-proyectos {
+font-size: 14px;
+font-weight: 300;
+}
+.dibujo{
+font-size: 30px;
+color: #f2f2f2;
+opacity: 0.9;
+border: transparent 2px #fff;
+}
+.dibujo:hover{
+font-size: 35px;
+color:#fff;
+opacity: 1;
+border: solid 1px #fff;
+}
+.icono1{
+width: 70px;
+height: 70px;
+}
+.icono1:hover {
+width: 70px;
+height: 70px;
+}
+.icono2{
+width: 70px;
+height: 70px;
+}
+.icono2:hover {
+width: 70px;
+height: 70px;
+}
+.icono3{
+width: 70px;
+height: 70px;
+}
+.icono3:hover {
+width: 70px;
+height: 70px;
+}
+.icono4{
+width: 70px;
+height: 70px;
+}
+.icono4:hover {
+ width: 70px;
+height: 70px;
+}
+.nombre{
+display: flex;
+justify-content: space-between;
+}
+.alfredo{    
+text-align: left;	    
+font-size:8px;
+margin-left:-2px;
+} 
+.web-developer{    
+font-size:8px;
+margin-right:-5px;}
+                    }
+
+ @media screen and (min-width:351px){
+
+.alerta-renovacion{    
+margin-top: 0px;
+margin-bottom: 30px;
+}        
+/*PROYECTOS*/
+.sinergia{
+height: 650px;
+}
+.titulo-proyecto {
+margin-top: 20px;
+font-size:20px;
+}
+.titulos-proyectos {
+font-size: 14px;
+font-weight: 300;
+}
+.alfredo{    
+  text-align: left;	    
+  font-size:10px;
+  margin-left:-2px;
+  }   
+  .web-developer{    
+  font-size:10px;
+  margin-right:-5px;
+  font-weight: lighter;
+  }
+              }
+@media screen and (min-width:768px){
+.sinergia{
+height: 350px;
+}
+.titulo-proyecto {
+margin-top: -50px;
+}
+
+                }
+
+@media screen and (max-width:284px){
+.navbar{
+height:60px;
+}
+.enlaces-menu {
+margin-top: -40px;
+text-align: center;
+}
+.licenciada{
+  /* min-height: 450px; */
+  margin-top: 10px;
+}
+.patricia-contenido-derecha ul li{
+font-size: 14px;
+}
+                }
+                
+@media screen and (min-width:285px) {
+.navbar{
+height:60px;
+}
+.enlaces-menu {
+margin-top: -5px;
+}
+.licenciada{
+  /* min-height: 450px; */
+  margin-top: 10px;
+}
+/* .patricia-contenido-derecha ul li{
+  font-size: 14px;
+  }          */
+                } 
